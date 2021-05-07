@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './video-list.component.html',
   styleUrls: ['./video-list.component.css']
 })
-export class VideoListComponent implements OnInit {
+export class VideoListComponent {
 
+  students = ['student1', 'student2', 'student3'];
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  
 }
